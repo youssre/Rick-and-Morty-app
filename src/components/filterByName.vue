@@ -25,15 +25,18 @@ export default {
 
 <style lang="scss">
 .search{
-    width: 400px;
-    margin: 3rem auto 0;
+    width: 80%;
+    margin: 3rem auto 0px;
+    
     input{
         height: 53px;
-        width: 400px;
+        width: 100%;
         border: none;
         border-radius: 10px;
         padding: 0 0.5rem;
         font-size: 21px;
+        
+        
         &:focus{
             outline: none;
             box-shadow: 0 0 10px dodgerblue;

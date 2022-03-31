@@ -41,9 +41,9 @@ export default {
     box-shadow: 0 0 10px 1px var(--background-body);
     overflow: hidden;
     cursor: pointer;
-    //width: 300px;
     transition: transform 300ms ease-in-out;
     height: 100%;
+    max-height: 600px;
     &:hover{
         transform: scale(1.05);
         h3{
